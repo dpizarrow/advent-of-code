@@ -29,7 +29,7 @@ def main(input_file: str):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python part-1.py <path_to_input>")
+        print(f"Usage: python {Path(__file__).name} <path_to_input>")
         sys.exit(1)
 
     input_file = sys.argv[1]
