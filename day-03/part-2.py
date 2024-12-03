@@ -9,6 +9,7 @@ def extract_muls(string: str):
 
 
 def sub_do_dont(string: str):
+    # Escapes all subsequences between a don't() and a do()
     return re.sub(r"don't\(\)[\s\S]*?(?:do\(\)|$)", "", string)
 
 
