@@ -163,3 +163,4 @@ cython_debug/
 
 # Advent of code files
 input.txt
+sample.txt
